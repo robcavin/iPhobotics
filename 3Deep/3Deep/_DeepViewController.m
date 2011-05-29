@@ -169,6 +169,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
         
         
         self.frameCaptureData = [NSKeyedUnarchiver unarchiveObjectWithFile:fileName];
+        
     }
     
     NSLog(@"Showing frame %d of %d",currentFrame,[frameCaptureData count]);
