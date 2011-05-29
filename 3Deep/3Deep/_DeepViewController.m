@@ -158,6 +158,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
         [session stopRunning];
         currentFrame = 0;
+        
     }    
 }
 
